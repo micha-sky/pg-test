@@ -40,7 +40,7 @@ html, body {
   font-size: 70px;
   margin-top: 0;
   margin-bottom: 80px;
-  text-transform: uppercase;
+//  text-transform: uppercase;
 }
 
 .main h3 {
@@ -110,13 +110,27 @@ html, body {
 .nav{
   list-style-type:none;
   margin:0;
-  padding:20px 0}
+  padding:20px 0
+}
 
-  .nav li{
-    color:#fff;
-    display:inline;
-    font-family:'Raleway', sans-serif;
-    font-weight:600;
-    font-size:12px;
-    margin-right:25px;
-    text-transform:uppercase}
+.nav li{
+  color:#fff;
+  display:inline;
+  font-family:'Raleway', sans-serif;
+  font-weight:600;
+  font-size:12px;
+  margin-right:25px;
+  text-transform:uppercase
+}
+
+li:hover{
+  color: orange;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container p{
+  text-align: center;
+}
